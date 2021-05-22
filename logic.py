@@ -31,7 +31,10 @@ def create_grid(grid):
     for i in range(4):
         grid.append([0, 0, 0, 0])
     return grid
-    
+
+
+
+
 def add_one(grid):
     '''
     adds a '2' to a random place in the grid, if the grid number is 0(empty)
